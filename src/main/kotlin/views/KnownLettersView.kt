@@ -1,9 +1,9 @@
-package org.example.views
+package com.letter.learning.views
 
 import javafx.scene.control.ListView
 import javafx.scene.control.SelectionMode
-import org.example.models.AlphabetModel
-import org.example.models.KnownLettersModel
+import com.letter.learning.models.AlphabetModel
+import com.letter.learning.models.KnownLettersModel
 import tornadofx.View
 import tornadofx.action
 import tornadofx.borderpane

@@ -3,7 +3,7 @@ plugins {
     id("org.openjfx.javafxplugin") version "0.0.13"
 }
 
-group = "org.example"
+group = "com.letter.learning"
 version = "1.0-SNAPSHOT"
 
 repositories {

@@ -1,7 +1,7 @@
-package org.example.models
+package com.letter.learning.models
 
 import javafx.collections.ListChangeListener.Change
-import org.example.datamodels.intersect
+import com.letter.learning.datamodels.intersect
 import tornadofx.ViewModel
 import tornadofx.asObservable
 import tornadofx.listProperty

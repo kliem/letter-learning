@@ -1,4 +1,4 @@
-package org.example.models
+package com.letter.learning.models
 
 import javafx.collections.ListChangeListener.Change
 import tornadofx.ViewModel

@@ -1,6 +1,6 @@
-package org.example.views
+package com.letter.learning.views
 
-import org.example.models.KnownWordsModel
+import com.letter.learning.models.KnownWordsModel
 import tornadofx.View
 import tornadofx.action
 import tornadofx.borderpane

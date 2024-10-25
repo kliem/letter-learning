@@ -1,4 +1,4 @@
-package org.example.models
+package com.letter.learning.models
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import javafx.beans.property.ListProperty

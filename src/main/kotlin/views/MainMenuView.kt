@@ -1,4 +1,4 @@
-package org.example.views
+package com.letter.learning.views
 
 import tornadofx.View
 import tornadofx.action

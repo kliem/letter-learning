@@ -1,4 +1,4 @@
-package org.example.datamodels
+package com.letter.learning.datamodels
 
 import java.util.BitSet
 

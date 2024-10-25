@@ -1,7 +1,7 @@
-package org.example.models
+package com.letter.learning.models
 
 import javafx.collections.ListChangeListener.Change
-import org.example.datamodels.WordSublist
+import com.letter.learning.datamodels.WordSublist
 import tornadofx.ViewModel
 import tornadofx.asObservable
 import tornadofx.mapProperty
