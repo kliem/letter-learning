@@ -6,7 +6,9 @@ import tornadofx.center
 import tornadofx.insets
 import tornadofx.label
 
-class HelloMessageView(private val name: String) : View("Hello World") {
+class HelloMessageView(
+    private val name: String,
+) : View("Hello World") {
     override val root =
         borderpane {
             center {

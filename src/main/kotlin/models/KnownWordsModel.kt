@@ -4,7 +4,6 @@ import javafx.collections.ListChangeListener.Change
 import org.example.datamodels.intersect
 import tornadofx.ViewModel
 import tornadofx.asObservable
-import tornadofx.intProperty
 import tornadofx.listProperty
 import tornadofx.onChange
 import tornadofx.stringProperty

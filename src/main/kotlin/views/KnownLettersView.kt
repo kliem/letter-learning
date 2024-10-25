@@ -1,9 +1,7 @@
 package org.example.views
 
-import javafx.event.EventHandler
 import javafx.scene.control.ListView
 import javafx.scene.control.SelectionMode
-import javafx.scene.input.KeyCode
 import org.example.models.AlphabetModel
 import org.example.models.KnownLettersModel
 import tornadofx.View
