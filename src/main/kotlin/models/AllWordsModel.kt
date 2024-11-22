@@ -11,6 +11,8 @@ class AllWordsModel : ViewModel() {
 
     init {
         val mapper = ObjectMapper()
+        // Data from [Wolfgang Pfeifer et al., Etymologisches Wörterbuch des Deutschen (1993)]
+        // (https://www.dwds.de/dwds_static/wb/dwdswb-headwords.json)
         val json = mapper.readTree(this::class.java.getResource("/etymwb-headwords.json"))
         val wordList = mutableListOf<String>()
         json.fields().forEach { (key, _) ->
