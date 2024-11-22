@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "1.9.23"
     id("org.openjfx.javafxplugin") version "0.0.13"
+    id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
 }
 
 group = "com.letter.learning"
