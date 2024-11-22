@@ -1,8 +1,8 @@
 package com.letter.learning.views
 
+import com.letter.learning.models.AlphabetModel
 import javafx.scene.control.SelectionMode
 import javafx.scene.control.TextInputDialog
-import com.letter.learning.models.AlphabetModel
 import tornadofx.View
 import tornadofx.action
 import tornadofx.borderpane

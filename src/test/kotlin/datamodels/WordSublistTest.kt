@@ -205,7 +205,9 @@ class WordSublistTest {
             listOf(
                 Arguments.of(
                     listOf(
-                        listOf("Word0", "Word1"), listOf("Word0", "Word2")),
+                        listOf("Word0", "Word1"),
+                        listOf("Word0", "Word2"),
+                    ),
                     listOf("Word0"),
                 ),
                 Arguments.of(
@@ -216,13 +218,17 @@ class WordSublistTest {
                     emptyList<String>(),
                 ),
                 Arguments.of(
-                    listOf(listOf("Word0", "Word1"),
-                    listOf("Word2", "Word3")),
+                    listOf(
+                        listOf("Word0", "Word1"),
+                        listOf("Word2", "Word3"),
+                    ),
                     emptyList<String>(),
                 ),
                 Arguments.of(
-                    listOf(listOf("Word0", "Word1"),
-                    listOf("Word0", "Word1")),
+                    listOf(
+                        listOf("Word0", "Word1"),
+                        listOf("Word0", "Word1"),
+                    ),
                     listOf("Word0", "Word1"),
                 ),
                 Arguments.of(
@@ -230,9 +236,11 @@ class WordSublistTest {
                     listOf("Word0", "Word1"),
                 ),
                 Arguments.of(
-                    listOf(listOf("Word0", "Word1"),
-                    listOf("Word2", "Word1"),
-                    listOf("Word3", "Word1", "Word2")),
+                    listOf(
+                        listOf("Word0", "Word1"),
+                        listOf("Word2", "Word1"),
+                        listOf("Word3", "Word1", "Word2"),
+                    ),
                     listOf("Word1"),
                 ),
             )
