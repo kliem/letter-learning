@@ -14,6 +14,7 @@ val mockkVersion = "1.13.13"
 val assertjVersion = "3.26.3"
 val tornadoVersion = "1.7.20"
 val jacksonVersion = "2.14.2"
+val junitVersion = "5.11.3"
 
 javafx {
     version = "17.0.2"
@@ -26,6 +27,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("io.mockk:mockk:$mockkVersion")
     testImplementation("org.assertj:assertj-core:$assertjVersion")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:$junitVersion")
 }
 
 tasks.test {
