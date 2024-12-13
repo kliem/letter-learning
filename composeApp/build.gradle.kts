@@ -8,6 +8,7 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.kotest.multiplatform)
+    alias(libs.plugins.ktlint)
 }
 
 kotlin {
@@ -131,5 +132,11 @@ tasks.named<Test>("desktopTest") {
                 org.gradle.api.tasks.testing.logging.TestLogEvent.PASSED,
             )
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
+    }
+}
+
+ktlint {
+    filter {
+        exclude("**/generated/**")
     }
 }
