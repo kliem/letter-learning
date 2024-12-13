@@ -11,12 +11,15 @@ androidx-espresso-core = "3.6.1"
 androidx-lifecycle = "2.8.3"
 androidx-material = "1.12.0"
 androidx-test-junit = "1.2.1"
+assertjVersion = "3.26.3"
 compose-multiplatform = "1.7.0"
 junit = "4.13.2"
 kotlin = "2.0.21"
 kotlinx-coroutines = "1.9.0"
+kotest = "5.9.1"
 
 [libraries]
+assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertjVersion" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -30,6 +33,11 @@ androidx-activity-compose = { module = "androidx.activity:activity-compose", ver
 androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
 kotlinx-coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
+kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
@@ -37,3 +45,4 @@ androidLibrary = { id = "com.android.library", version.ref = "agp" }
 composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotest-multiplatform = { id = "io.kotest.multiplatform", version.ref = "kotest" }
